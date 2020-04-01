@@ -18,7 +18,7 @@ pkgrel=1
 pkgdesc="Nemo calculator"
 arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/glacier-calc#branch=$_branch"
-license=('BSD-3-Clause')
+license=('BSD-3-Clause' 'GPL-2.0-or-later')
 depends=('qt5-glacier-app-git') # TODO: 'mapplauncherd'
 makedepends=('git')
 provides=("${pkgname%-git}")
